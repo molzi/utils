@@ -5,6 +5,8 @@ Angular Directive for providing a sorting-popover on clicking onto a table heade
 ## Requirements
 
  - Angular Application
+ - Coreui-Premium
+ -- https://coreui.io/
 
 ## Usage
 Declare the TableSorter-Directive in your depending Angular-Module to enable the directive in the module-included components.
