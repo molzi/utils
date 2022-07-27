@@ -44,6 +44,10 @@ sap.ui.define([
              * @override
              */
             init: function () {
+                //set custom Event Bus
+                this.getEventBus = function () {
+                    return this.oEventBus;
+                }
             },
 
         });
